@@ -8,12 +8,13 @@ import (
 	"digger/pkg/core/terraform"
 	"digger/pkg/core/utils"
 	"fmt"
-	configuration "github.com/diggerhq/lib-digger-config"
 	"log"
 	"os"
 	"path"
 	"regexp"
 	"strings"
+
+	configuration "github.com/diggerhq/lib-digger-config"
 )
 
 type Executor interface {
@@ -239,6 +240,10 @@ func (d DiggerExecutor) Apply() (bool, string, error) {
 		if step.Action == "init" {
 			stdout, _, err := d.TerraformExecutor.Init(step.ExtraArgs, d.StateEnvVars)
 			if err != nil {
+				commentErr := d.Reporter.Report(err.Error(), utils.AsCollapsibleComment("Error during init."))
+				if commentErr != nil {
+					fmt.Printf("error publishing comment: %v", err)
+				}
 				return false, stdout, fmt.Errorf("error running init: %v", err)
 			}
 		}
