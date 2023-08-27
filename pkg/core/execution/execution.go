@@ -146,7 +146,7 @@ func (d DiggerExecutor) Plan() (bool, bool, string, string, error) {
 		if step.Action == "init" {
 			_, stderr, err := d.TerraformExecutor.Init(step.ExtraArgs, d.StateEnvVars)
 			if err != nil {
-				commentErr := d.Reporter.Report(stderr, utils.AsCollapsibleComment("Error during init."))
+				commentErr := d.Reporter.Report(stderr, utils.GetTerraformOutputAsCollapsibleComment("Error during init."))
 				if commentErr != nil {
 					fmt.Printf("error publishing comment: %v", err)
 				}
