@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
+	configuration "github.com/diggerhq/lib-digger-config"
 	orchestrator "github.com/diggerhq/lib-orchestrator"
-	configuration "github.com/isaacmcollins/lib-digger-config"
 	"github.com/microsoft/azure-devops-go-api/azuredevops"
 	"github.com/microsoft/azure-devops-go-api/azuredevops/git"
 )

@@ -27,9 +27,9 @@ import (
 	"strings"
 	"time"
 
+	configuration "github.com/diggerhq/lib-digger-config"
 	orchestrator "github.com/diggerhq/lib-orchestrator"
 	dg_github "github.com/diggerhq/lib-orchestrator/github"
-	configuration "github.com/isaacmcollins/lib-digger-config"
 	"gopkg.in/yaml.v3"
 
 	"github.com/google/go-github/v55/github"

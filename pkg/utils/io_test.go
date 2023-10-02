@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	configuration "github.com/isaacmcollins/lib-digger-config"
+	configuration "github.com/diggerhq/lib-digger-config"
 	"github.com/stretchr/testify/assert"
 )
 

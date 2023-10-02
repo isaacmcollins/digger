@@ -14,7 +14,7 @@ import (
 	"regexp"
 	"strings"
 
-	configuration "github.com/isaacmcollins/lib-digger-config"
+	configuration "github.com/diggerhq/lib-digger-config"
 
 	orchestrator "github.com/diggerhq/lib-orchestrator"
 )

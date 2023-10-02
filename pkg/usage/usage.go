@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	configuration "github.com/isaacmcollins/lib-digger-config"
+	configuration "github.com/diggerhq/lib-digger-config"
 )
 
 var collect_usage_data = true
