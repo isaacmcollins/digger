@@ -3,11 +3,12 @@ package utils
 import (
 	"archive/zip"
 	"bytes"
-	configuration "github.com/diggerhq/lib-digger-config"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	configuration "github.com/isaacmcollins/lib-digger-config"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetFileFromZip(t *testing.T) {

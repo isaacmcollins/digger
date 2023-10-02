@@ -5,10 +5,11 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
-	configuration "github.com/diggerhq/lib-digger-config"
 	"log"
 	"net/http"
 	"os"
+
+	configuration "github.com/isaacmcollins/lib-digger-config"
 )
 
 var collect_usage_data = true

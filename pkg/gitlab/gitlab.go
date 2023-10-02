@@ -6,8 +6,8 @@ import (
 	"log"
 	"strings"
 
-	configuration "github.com/diggerhq/lib-digger-config"
 	orchestrator "github.com/diggerhq/lib-orchestrator"
+	configuration "github.com/isaacmcollins/lib-digger-config"
 
 	"github.com/caarlos0/env/v8"
 	go_gitlab "github.com/xanzy/go-gitlab"

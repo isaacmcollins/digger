@@ -4,12 +4,13 @@ import (
 	"digger/pkg/core/execution"
 	"digger/pkg/reporting"
 	"digger/pkg/utils"
-	configuration "github.com/diggerhq/lib-digger-config"
 	"sort"
 	"strconv"
 	"strings"
 	"testing"
 	"time"
+
+	configuration "github.com/isaacmcollins/lib-digger-config"
 
 	orchestrator "github.com/diggerhq/lib-orchestrator"
 	"github.com/dominikbraun/graph"
