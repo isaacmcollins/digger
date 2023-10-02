@@ -385,8 +385,6 @@ github.com/dgraph-io/ristretto v0.1.1 h1:6CWw5tJNgpegArSHpNHJKldNeq03FQCwYvfMVWa
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
 github.com/dgryski/trifles v0.0.0-20200323201526-dd97f9abfb48 h1:fRzb/w+pyskVMQ+UbP35JkH8yB7MYb4q/qhBarqZE6g=
 github.com/dgryski/trifles v0.0.0-20200323201526-dd97f9abfb48/go.mod h1:if7Fbed8SFyPtHLHbg49SI7NAdJiC5WIA09pe59rfAA=
-github.com/isaacmcollins/lib-digger-config v0.0.7 h1:mU2833nn95l5UWdZtwkD9dGXWhj7R3fARYGjUp3UDoQ=
-github.com/isaacmcollins/lib-digger-config v0.0.7/go.mod h1:ZmzfsiKcgo+HoDTI4W5KT5Y9vrA2A+BfAWk3KSH5V7A=
 github.com/diggerhq/lib-orchestrator v0.0.11 h1:5kyiXws3+Ql3UHxDuruRIcm0KEYpO+lo/z1qyb+Auu4=
 github.com/diggerhq/lib-orchestrator v0.0.11/go.mod h1:2axPwm860UcZnGp6Jg0me1p291LAaTiI51inpf0YbOQ=
 github.com/dimchansky/utfbom v1.1.0/go.mod h1:rO41eb7gLfo8SF1jd9F8HplJm1Fewwi4mQvIirEdv+8=
@@ -738,6 +736,8 @@ github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:
 github.com/imdario/mergo v0.3.11/go.mod h1:jmQim1M+e3UYxmgPu/WyfjB3N3VflVyUjjjwH0dnCYA=
 github.com/imdario/mergo v0.3.12 h1:b6R2BslTbIEToALKP7LxUvijTsNI9TAe80pLWN2g/HU=
 github.com/imdario/mergo v0.3.12/go.mod h1:jmQim1M+e3UYxmgPu/WyfjB3N3VflVyUjjjwH0dnCYA=
+github.com/isaacmcollins/lib-digger-config v0.0.0-20231002003600-41cea19ba299 h1:ZdF/7NA6TC9r/fwQ1X2VUtS6DBYpPIoPZ32pZzbE3Cc=
+github.com/isaacmcollins/lib-digger-config v0.0.0-20231002003600-41cea19ba299/go.mod h1:4L1M4px5ePUcjI6esFxHEQmTVeP7D6DwKurYWEjalZQ=
 github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
 github.com/jessevdk/go-flags v1.5.0 h1:1jKYvbxEjfUl0fmqTCOfonvskHHXMjBySTLW4y9LFvc=
 github.com/jessevdk/go-flags v1.5.0/go.mod h1:Fw0T6WPc1dYxT4mKEZRfG5kJhaTDP9pj1c2EWnYs/m4=
