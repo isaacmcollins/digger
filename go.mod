@@ -18,12 +18,12 @@ require (
 )
 
 require (
-	github.com/isaacmcollins/lib-digger-config v0.0.0-20231002003600-41cea19ba299
+	github.com/diggerhq/lib-digger-config v0.0.7
 	github.com/diggerhq/lib-orchestrator v0.0.11
 	github.com/dominikbraun/graph v0.23.0
 	github.com/google/go-github/v55 v55.0.0
 )
-
+replace github.com/diggerhq/lib-digger-config v0.0.7 => github.com/isaacmcollins/lib-digger-config fix_autodetect_project_name 
 require (
 	filippo.io/age v1.0.0 // indirect
 	github.com/Azure/azure-sdk-for-go v63.3.0+incompatible // indirect
